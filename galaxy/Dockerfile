@@ -2,9 +2,9 @@
 #
 # VERSION       Galaxy-central
 
-FROM toolshed/requirements
+FROM ovoids/docker-galaxy-requirements
 
-MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
+MAINTAINER Yannick Boursin (Yannick.boursin@gustaveroussy.fr)
 
 # * Make sure the package repository is up to date
 # * Install all requirements that are recommend by the Galaxy project
